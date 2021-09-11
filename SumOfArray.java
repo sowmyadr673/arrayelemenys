@@ -1,0 +1,15 @@
+package com.xworkz.arrayelements;
+
+public class SumOfArray {
+
+	public static void main(String[] args) {
+
+		int numbers[] = { 10, 15, 20, 25, 30, 35, 41, 55, 46, 52, 64, 67, 72, 12, 34, 90 };
+		int sum = 0;
+		for (int i = 0; i < numbers.length; i++) {
+			sum = sum + numbers[i];
+		}
+		System.out.println("sum of the numbers=" + sum);
+
+	}
+}
